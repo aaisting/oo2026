@@ -1,0 +1,8 @@
+Kilpkonn
+
+Kilpkonnal on täisarvulised koordinaadid x ja y ning suund ["vasakule", "yles", "paremale", "alla"] ning käsklused edasi() ning keeraParemale(). Edasi-käskluse puhul liigub kilpkonn ühe koordinaadi järgi edasi, keeraParemale() keerab 90 kraadi paremale. 
+
+Koosta kilpkonna objekt ning näitprogramm tema töö katsetamiseks
+
+Alamülesanded:
+Koosta konstruktoriga kilpkonn, millele saab ette anda x ja y koordinaadi. Lisa käsklus kilpkonna koordinaatide küsimiseks tekstina.
