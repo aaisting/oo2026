@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Takisti</title>
+    <script src="takisti4.js"></script>
+    <script>
+        let r1, r2;
+
+        function startPage() {
+            const canvas = document.getElementById("canvas1");
+            const ctx = canvas.getContext("2d");
+
+            r1 = new Resistor(4700, ctx, 50, 150, 50);
+            r2 = new Resistor(4700, ctx, 400, 800, 50);
+
+            document.getElementById("range1").value = r1.getR();
+            document.getElementById("range2").value = r2.getR();
+            document.getElementById("rangeu1").value = r1.getU();
+            document.getElementById("rangeu2").value = r2.getU();
+        }
+    </script>
+</head>
+
+<body onload="startPage()">
+    <canvas id="canvas1" width="1000" height="600"></canvas><br />
+    <input type="range" id="range1" min="4700" max="10000"
+           oninput="r1.setR(this.valueAsNumber)" />
+    <input type="range" id="range2" min="4700" max="10000"
+           oninput="r2.setR(this.valueAsNumber)" />
+    <input type="range" id="rangeu1" min="0" max="1000"
+           oninput="r1.setU(this.valueAsNumber)" />
+    <input type="range" id="rangeu2" min="0" max="1000"
+           oninput="r2.setU(this.valueAsNumber)" />
+</body>
+</html>
