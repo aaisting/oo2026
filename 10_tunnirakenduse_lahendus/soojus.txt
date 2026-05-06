@@ -1,0 +1,9 @@
+Leia, mitu džauli energiat kulub 1 liitri (= 1 kg) vee soojendamiseks 20 Celsiuse kraadi võrra. Siin ja edasipidi soojuskadusid ei arvestata kui pole eraldi märgitud.
+
+1kg * 4290 J /(kg * C) * 20 C = 83800J
+
+Leia, mitu džauli energiat kulub 1,5 liitri vee soojendamiseks 20 Celsiuse kraadi pealt keemiseni.
+4200 * 80 + 2100 * 80
+
+Elektrilise veekeedukannu võimsus on 1,25 KW. Leia, mitu sekundit kulub kannus oleva 1,5 liitri vee soojendamiseks 20 tselsiuskraadi pealt keemiseni (100 kraadi).
+502800 J / 1250 (j/s) = 402 sek ~7min
